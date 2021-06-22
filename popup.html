@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chrome plugin with 34web</title>
+		<link rel="stylesheet" href="./popup.css?v=1" />
+	</head>
+	<body>
+		<div class="title">
+			<a target="_blank" href="http://34web.cn"
+				>Chrome plugin with 34web</a
+			>
+		</div>
+		<div class="status">
+			<div class="success" style="display: none">已登录</div>
+			<div class="failed" style="display: none">
+				<div>
+					当前还未登录网站
+					<a id="refreshBtn">刷新状态</a>
+				</div>
+				<div>
+					请先前往<a target="_blank" href="http://34web.cn"
+						>34web.cn</a
+					>登录
+				</div>
+			</div>
+		</div>
+		<script
+			type="text/javascript"
+			charset="utf-8"
+			src="./popup.js"
+		></script>
+	</body>
+</html>

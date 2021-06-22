@@ -1,0 +1,39 @@
+html,
+body {
+	position: relative;
+	margin: 0;
+	min-width: 280px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	background-color: #292a2d;
+}
+a {
+	color: #1890ff;
+}
+a:hover {
+	opacity: 0.9;
+}
+.title {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.title a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+.status {
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+}
+.status .success {
+	color: #1890ff;
+}
+.status .failed {
+	color: #ff4d4f;
+}
+.status .failed a {
+	cursor: pointer;
+}
