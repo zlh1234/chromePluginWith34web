@@ -27,8 +27,8 @@ function getInfo(cb) {
 			name: 'Authorization',
 		},
 		(cookies) => {
-			if (!cookies && cookies.value) {
-				context.check();
+			context.check();
+			if (cookies && cookies.value) {
 				document.querySelector('.status .success').style.display =
 					'block';
 				document.querySelector('.status .failed').style.display =
