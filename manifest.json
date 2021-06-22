@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Chrome plugin with 34web",
-	"description": "Chrome plugin with 34web",
+	"name": "Chrome Plugin With 34web",
+	"description": "Chrome Plugin With 34web",
 	"version": "1.0.0",
 	"permissions": [
 		"cookies",
@@ -27,7 +27,7 @@
 	},
 	"browser_action": {
 		"default_icon": "images/icon.png",
-		"default_title": "Chrome plugin with 34web",
+		"default_title": "Chrome Plugin With 34web",
 		"default_popup": "popup.html"
 	}
 }
